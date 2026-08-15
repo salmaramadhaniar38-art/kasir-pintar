@@ -1,6 +1,6 @@
 const menus = [
   { id: 1, name: "Popis Bites Coklat", price: 8000, category: "Makanan", rating: 4.8, reviews: 98, icon: "gambar/PopisBites-Coklat.jpg" },
-  { id: 2, name: "Popis Bites Matcha", price: 8000, category: "Makanan", rating: 4.7, reviews: 97, icon: "gambar/PopisBites-Mangga.jpg" },
+  { id: 2, name: "Popis Bites Matcha", price: 8000, category: "Makanan", rating: 4.7, reviews: 97, icon: "gambar/PopisBites-Matcha.jpg" },
   { id: 3, name: "Popis Bites Tiramisu", price: 8000, category: "Makanan", rating: 4.9, reviews: 99, icon: "gambar/PopisBites-Tiramisu.jpg" },
   { id: 4, name: "Mochi Mangga", price: 5000, category: "Makanan", rating: 4.7, reviews: 97, icon: "gambar/Mochi-Mangga.jpg" },
   { id: 5, name: "Mochi Oreo", price: 5000, category: "Makanan", rating: 4.7, reviews: 97, icon: "gambar/Mochi-Oreo.jpg" },
