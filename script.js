@@ -5,8 +5,8 @@ const menus = [
   { id: 4, name: "Mochi Mangga", price: 5000, category: "Makanan", rating: 4.7, reviews: 97, icon: "gambar/Mochi-Mangga.jpg" },
   { id: 5, name: "Mochi Oreo", price: 5000, category: "Makanan", rating: 4.7, reviews: 97, icon: "gambar/Mochi-Oreo.jpg" },
   { id: 6, name: "Es Lumut Bubble Gum", price: 5000, category: "Minuman", rating: 4.8, reviews: 98, icon: "gambar/EsLumut-BubbleGum.jpg" },
-  { id: 5, name: "Es Lumut Taro", price: 5000, category: "Minuman", rating: 4.8, reviews: 98, icon: "gambar/EsLumut-Taro.jpg" },
-  { id: 5, name: "Es Lumut Mangga", price: 5000, category: "Minuman", rating: 4.8, reviews: 98, icon: "gambar/EsLumut-Mangga.jpg" },
+  { id: 7, name: "Es Lumut Taro", price: 5000, category: "Minuman", rating: 4.8, reviews: 98, icon: "gambar/EsLumut-Taro.jpg" },
+  { id: 8, name: "Es Lumut Mangga", price: 5000, category: "Minuman", rating: 4.8, reviews: 98, icon: "gambar/EsLumut-Mangga.jpg" },
 ];
 
 let cart = [];
