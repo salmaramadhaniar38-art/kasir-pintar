@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kasir Pintar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div>
+      <h1>🛒 Kasir Pintar</h1>
+      <p>Aplikasi Kasir Online</p>
+    </div>
+    <div class="header-actions">
+      <span id="clock"></span>
+      <button type="button" id="themeBtn" class="icon-btn" title="Mode Gelap">☀️</button>
+    </div>
+  </header>
+
+  <main class="app">
+    <section class="menu-section">
+      <div class="section-top">
+        <div>
+          <h2>Menu</h2>
+          <div class="categories">
+            <button type="button" class="category active" data-category="Semua">Semua</button>
+            <button type="button" class="category" data-category="Makanan">Makanan</button>
+            <button type="button" class="category" data-category="Minuman">Minuman</button>
+            <button type="button" class="category" data-category="Snack">Snack</button>
+          </div>
+        </div>
+        <input id="search" type="search" placeholder="Cari menu...">
+      </div>
+
+      <div id="menuGrid" class="menu-grid"></div>
+    </section>
+
+    <aside class="cart-section">
+      <div class="cart-title">
+        <h2>Pesanan</h2>
+        <button type="button" id="clearBtn" class="danger-btn">🗑 Kosongkan</button>
+      </div>
+
+      <div id="cartList" class="cart-list">
+        <div class="empty">Belum ada pesanan.</div>
+      </div>
+
+      <div class="summary">
+        <div><span>Subtotal</span><strong id="subtotal">Rp 0</strong></div>
+        <div><span>Pajak (10%)</span><strong id="tax">Rp 0</strong></div>
+        <div class="total"><span>Total</span><strong id="total">Rp 0</strong></div>
+      </div>
+
+      <button type="button" id="payBtn" class="pay-btn">🛒 Bayar</button>
+      <button type="button" id="resetBtn" class="reset-btn">↻ Reset Pesanan</button>
+    </aside>
+  </main>
+
+  <footer>© 2026 Kasir Pintar. Semua hak dilindungi.</footer>
+
+  <div id="toast" class="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>
