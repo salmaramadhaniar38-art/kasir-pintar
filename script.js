@@ -1,12 +1,12 @@
 const menus = [
-  { id: 1, name: "Nasi Goreng Spesial", price: 25000, category: "Makanan", rating: 4.6, reviews: 120, icon: "🍳" },
-  { id: 2, name: "Mie Goreng", price: 20000, category: "Makanan", rating: 4.4, reviews: 98, icon: "🍜" },
-  { id: 3, name: "Chicken Katsu", price: 28000, category: "Makanan", rating: 4.7, reviews: 96, icon: "🍗" },
-  { id: 4, name: "Es Kopi Susu", price: 15000, category: "Minuman", rating: 4.5, reviews: 75, icon: "☕" },
-  { id: 5, name: "Jus Jeruk", price: 12000, category: "Minuman", rating: 4.3, reviews: 60, icon: "🍊" },
-  { id: 6, name: "Chocolate Blend", price: 18000, category: "Minuman", rating: 4.6, reviews: 110, icon: "🥤" },
-  { id: 7, name: "Kentang Goreng", price: 15000, category: "Snack", rating: 4.2, reviews: 45, icon: "🍟" },
-  { id: 8, name: "Risoles", price: 10000, category: "Snack", rating: 4.1, reviews: 38, icon: "🥟" }
+  { id: 1, name: "Popis Bites Coklat", price: 8000, category: "Makanan", rating: 4.8, reviews: 98, icon: "gambar/PopisBites-Coklat.png" },
+  { id: 2, name: "Popis Bites Matcha", price: 8000, category: "Makanan", rating: 4.7, reviews: 97, icon: "gambar/PopisBites-Mangga.png" },
+  { id: 3, name: "Popis Bites Tiramisu", price: 8000, category: "Makanan", rating: 4.9, reviews: 99, icon: "gambar/PopisBites-Tiramisu.png" },
+  { id: 4, name: "Mochi Mangga", price: 5000, category: "Makanan", rating: 4.7, reviews: 97, icon: "gambar/Mochi-Mangga.png" },
+  { id: 5, name: "Mochi Oreo", price: 5000, category: "Makanan", rating: 4.7, reviews: 97, icon: "gambar/Mochi-Oreo.png" },
+  { id: 6, name: "Es Lumut Bubble Gum", price: 5000, category: "Minuman", rating: 4.8, reviews: 98, icon: "gambar/EsLumut-BubbleGum.png" },
+  { id: 5, name: "Es Lumut Taro", price: 5000, category: "Minuman", rating: 4.8, reviews: 98, icon: "gambar/EsLumut-Taro.png" },
+  { id: 5, name: "Es Lumut Mangga", price: 5000, category: "Minuman", rating: 4.8, reviews: 98, icon: "gambar/EsLumut-Mangga.png" },
 ];
 
 let cart = [];
@@ -31,7 +31,9 @@ function renderMenu() {
 
   document.getElementById("menuGrid").innerHTML = filtered.map(item => `
     <article class="menu-card">
-      <div class="menu-image">${item.icon}</div>
+      <div class="menu-image">
+        <img src="${item.icon}" alt="${item.name}">
+      </div>
       <div class="menu-info">
         <h3>${item.name}</h3>
         <div class="price">${rupiah(item.price)}</div>

@@ -152,6 +152,12 @@ body {
   background: linear-gradient(135deg, #eef2ff, #fff5df);
 }
 
+.menu-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .menu-info {
   padding: 14px;
 }
