@@ -1,12 +1,12 @@
 const menus = [
-  { id: 1, name: "Popis Bites Coklat", price: 8000, category: "Makanan", rating: 4.8, reviews: 98, icon: "gambar/PopisBites-Coklat.png" },
-  { id: 2, name: "Popis Bites Matcha", price: 8000, category: "Makanan", rating: 4.7, reviews: 97, icon: "gambar/PopisBites-Mangga.png" },
-  { id: 3, name: "Popis Bites Tiramisu", price: 8000, category: "Makanan", rating: 4.9, reviews: 99, icon: "gambar/PopisBites-Tiramisu.png" },
-  { id: 4, name: "Mochi Mangga", price: 5000, category: "Makanan", rating: 4.7, reviews: 97, icon: "gambar/Mochi-Mangga.png" },
-  { id: 5, name: "Mochi Oreo", price: 5000, category: "Makanan", rating: 4.7, reviews: 97, icon: "gambar/Mochi-Oreo.png" },
-  { id: 6, name: "Es Lumut Bubble Gum", price: 5000, category: "Minuman", rating: 4.8, reviews: 98, icon: "gambar/EsLumut-BubbleGum.png" },
-  { id: 5, name: "Es Lumut Taro", price: 5000, category: "Minuman", rating: 4.8, reviews: 98, icon: "gambar/EsLumut-Taro.png" },
-  { id: 5, name: "Es Lumut Mangga", price: 5000, category: "Minuman", rating: 4.8, reviews: 98, icon: "gambar/EsLumut-Mangga.png" },
+  { id: 1, name: "Popis Bites Coklat", price: 8000, category: "Makanan", rating: 4.8, reviews: 98, icon: "gambar/PopisBites-Coklat.jpg" },
+  { id: 2, name: "Popis Bites Matcha", price: 8000, category: "Makanan", rating: 4.7, reviews: 97, icon: "gambar/PopisBites-Mangga.jpg" },
+  { id: 3, name: "Popis Bites Tiramisu", price: 8000, category: "Makanan", rating: 4.9, reviews: 99, icon: "gambar/PopisBites-Tiramisu.jpg" },
+  { id: 4, name: "Mochi Mangga", price: 5000, category: "Makanan", rating: 4.7, reviews: 97, icon: "gambar/Mochi-Mangga.jpg" },
+  { id: 5, name: "Mochi Oreo", price: 5000, category: "Makanan", rating: 4.7, reviews: 97, icon: "gambar/Mochi-Oreo.jpg" },
+  { id: 6, name: "Es Lumut Bubble Gum", price: 5000, category: "Minuman", rating: 4.8, reviews: 98, icon: "gambar/EsLumut-BubbleGum.jpg" },
+  { id: 5, name: "Es Lumut Taro", price: 5000, category: "Minuman", rating: 4.8, reviews: 98, icon: "gambar/EsLumut-Taro.jpg" },
+  { id: 5, name: "Es Lumut Mangga", price: 5000, category: "Minuman", rating: 4.8, reviews: 98, icon: "gambar/EsLumut-Mangga.jpg" },
 ];
 
 let cart = [];
